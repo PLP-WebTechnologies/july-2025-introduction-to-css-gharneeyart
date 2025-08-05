@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enhanced HTML5 Form</title> 
+</head>
+<body>
+  <header>
+    <h1>Registration Form</h1>
+    <p>Please fill out the form below. All fields marked with * are required.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Instructions</h2>
+      <ul>
+        <li>Provide accurate personal information.</li>
+        <li>All required fields must be completed.</li>
+        <li>Use the table below to view available programs.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Programs Offered</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Program</th>
+            <th>Duration</th>
+            <th>Cost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Web Development</td>
+            <td>4 Months + 2 Months Internship</td>
+            <td>N750K</td>
+          </tr>
+          <tr>
+            <td>Data Science</td>
+            <td>3 Months + 1 Months Internship</td>
+            <td>N500K</td>
+          </tr>
+          <tr>
+            <td>Cyber Security</td>
+            <td>3 Months + 1 Months Mentorship</td>
+            <td>N650K</td>
+          </tr>
+          <tr>
+            <td>UI/UX Design</td>
+            <td>3 Months + 2 Months Internship</td>
+            <td>500K</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Media Preview</h2>
+      <p>Watch our introductory video below:</p>
+      <video width="400" controls>
+        <source src="intro.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>Application Form</h2>
+      <form action="/submit" method="POST" autocomplete="on">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="fullname">Full Name*:</label><br>
+          <input type="text" id="fullname" name="fullname" placeholder="John Doe" required /><br><br>
+
+          <label for="email">Email*:</label><br>
+          <input type="email" id="email" name="email" placeholder="example@mail.com" required /><br><br>
+
+          <label for="dob">Date of Birth:</label><br>
+          <input type="date" id="dob" name="dob" /><br><br>
+
+          <label for="gender">Gender:</label><br>
+          <select id="gender" name="gender">
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Additional Info</legend>
+          <label for="bio">Short Bio:</label><br>
+          <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+
+          <label for="referrer">Referrer (if any):</label><br>
+          <input type="text" id="referrer" name="referrer" readonly value="Online Campaign" /><br><br>
+
+          <input type="checkbox" id="terms" name="terms" required />
+          <label for="terms"> I agree to the terms and conditions*</label><br><br>
+
+          <button type="submit">Submit Application</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gani's Institute. All rights reserved.</p>
+  </footer>
+</body>
+</html>
