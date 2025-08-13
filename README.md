@@ -1,44 +1,46 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ew7e64j9)
-# 📘 Assignment: Enhancing HTML5 Content & Mastering Forms
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RyEig_hB)
+# 🎨 Assignment: CSS Basics & The Box Model
 
 ## Overview
 
-This assignment focuses on elevating your HTML5 skills by working with advanced content elements and mastering the creation, structure, and validation of web forms. You will practice using lists, tables, and media to enrich page content, and then dive deep into building dynamic, user-friendly forms powered by native HTML5 features.
+This assignment introduces you to the foundational principles of CSS—how to style web content, apply essential styling properties, and understand the powerful concept of the CSS Box Model. You’ll practice writing clean, organized CSS that brings structure and visual appeal to an HTML page.
 
-## Objectives
+## Objective
 
-You are expected to demonstrate the ability to:
+Your goal is to create a visually styled web page using only CSS. You will apply basic styling rules to text, backgrounds, and layout elements, and demonstrate an understanding of how the CSS Box Model affects spacing and sizing on the page.
 
-* Use lists and tables effectively to organize content for clarity and accessibility.
-* Embed media content such as images, audio, or video using semantic HTML5 elements.
-* Build structured HTML5 forms that are both usable and visually intuitive.
-* Apply various HTML5 form attributes to improve user interaction.
-* Use built-in validation techniques to minimize incorrect data input without relying on JavaScript.
+## What You'll Practice
+
+* Connecting CSS to your HTML (external stylesheet)
+* Using basic CSS properties such as `color`, `font-size`, `margin`, `padding`, `border`, and `background`
+* Structuring your layout with awareness of how the Box Model influences spacing and dimensions
+* Writing clean and maintainable CSS selectors and rules
 
 ## Instructions
 
-Design a simple multi-section web page that showcases the use of lists, tables, and media, followed by a complete HTML5 form. The page should reflect thoughtful structure, usability, and clarity.
+Start with a basic HTML structure and create a separate CSS file named `styles.css`. Link it to your HTML file. Apply various styles to headings, paragraphs, and container sections.
 
-Your form should include various input types, make use of labels and fieldsets for accessibility, and apply HTML5 validation rules through attributes like `required`, `type`, `minlength`, `pattern`, and others.
+Use the Box Model deliberately—experiment with margin, padding, and borders to see how they affect the layout. Apply background colors to visualize box boundaries. You may also style buttons, navigation, and card-like sections to demonstrate your grasp of spacing and alignment.
 
-Avoid using JavaScript for validation—rely solely on native HTML5 capabilities.
+No JavaScript or external CSS libraries (like Bootstrap) should be used.
 
 ## Deliverables
 
-Submit a single HTML file named `enhanced-form.html`. It should include:
+Submit the following files:
 
-* Well-structured content using lists, tables, and media.
-* A complete HTML5 form including a variety of input fields.
-* Correct use of form attributes such as `placeholder`, `required`, `autocomplete`, and `readonly`.
-* HTML5 validation features implemented correctly across all relevant fields.
-* A clear, accessible layout using semantic tags.
+* `index.html`: A basic HTML page with structured content.
+* `styles.css`: Your external stylesheet containing all your CSS rules.
+
+Both files should work together to showcase:
+
+* Proper use of selectors and basic styling properties
+* Clear implementation of the CSS Box Model
+* Consistent spacing, sizing, and layout styling
 
 ## Tips
 
-* Proper and meaningful use of lists, tables, and media.
-* Clarity and accessibility of form structure.
-* Correct use of form elements and attributes.
-* Effective application of native HTML5 validation.
-* Clean, well-indented, and maintainable HTML code.
-
-
+* Correct linkage of HTML and CSS files
+* Use of appropriate CSS selectors and properties
+* Demonstration of the Box Model through visual layout (clear use of margin, padding, and borders)
+* Readability and organization of CSS code (indentation, comments, spacing)
+* Overall appearance and clarity of styled content
