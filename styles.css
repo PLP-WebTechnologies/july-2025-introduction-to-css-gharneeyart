@@ -1,0 +1,25 @@
+body{
+    max-width: 1280px;
+    margin: auto;
+    background-color: lightblue;
+}
+div{
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    color: blue;
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.first{
+    border: 2px solid black;
+}
+#second-head{
+    color:blueviolet;
+}
